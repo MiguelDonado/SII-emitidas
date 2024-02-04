@@ -1,6 +1,6 @@
 # Project Title: SII Emitidas Processing
 
-This project is designed to process and analyze the Suministro Inmediato de Información (SII) files provided by Hacienda. These files contain information about the invoices issued by companies whose turnover exceeded 6 million.
+This project is designed to process and analyze the Suministro Inmediato de Información (SII) files provided by Hacienda (12 csv or xlsx files). These files contain information about the invoices issued by companies whose turnover exceeded 6 million.
 
 ## Getting Started
 
