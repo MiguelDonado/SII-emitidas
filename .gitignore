@@ -1,0 +1,8 @@
+/__pycache__/
+/build/
+/dist/
+*.txt
+*.spec
+*.xlsx
+SII emitidas.code-workspace
+*.csv
