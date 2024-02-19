@@ -12,14 +12,14 @@ from output import write_to_xlsx
 def main():
     files = get_files()
     encodi = detect_encoding(files[0])
-    if check_same_columns(files, encodi):
-        df = merge_files(files, encodi)
-        df = calculate_all_columns(df)
-        df = func_calculate_bases_causas(df)
-        df = func_calculate_bases_tipos(df)
-        df = func_calculate_bases_cosa_rara(df)
-        df = delete_columns(df)
-        write_to_xlsx(df)
+    # if check_same_columns(files, encodi):
+    df = merge_files(files, encodi)
+    df = calculate_all_columns(df)
+    df = func_calculate_bases_causas(df)
+    df = func_calculate_bases_tipos(df)
+    df = func_calculate_bases_cosa_rara(df)
+    df = delete_columns(df)
+    write_to_xlsx(df)
 
 
 def merge_files(files, encodi):
